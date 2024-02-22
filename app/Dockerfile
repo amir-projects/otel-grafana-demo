@@ -1,4 +1,4 @@
-FROM node
+FROM node:16.4-alpine
 
 # Install dependencies and copy source files
 WORKDIR /usr/app
